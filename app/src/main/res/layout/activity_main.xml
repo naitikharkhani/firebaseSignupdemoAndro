@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:text="Enter Name "
+        android:textSize="30dp"
+        />
+
+
+
+    <EditText
+        android:id="@+id/name"
+        android:background="#FFC107"
+        android:hint="Enter name"
+        android:layout_margin="10dp"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:text="Enter Email "
+        android:textSize="30dp"
+        />
+
+
+
+    <EditText
+        android:id="@+id/email"
+        android:background="#FFC107"
+        android:hint="Enter email"
+        android:layout_margin="10dp"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:text="Enter password "
+        android:textSize="30dp"
+        />
+
+
+
+    <EditText
+        android:id="@+id/password"
+        android:background="#FFC107"
+        android:hint="Enter name"
+        android:layout_margin="10dp"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:text="Enter C password "
+        android:textSize="30dp"
+        />
+
+
+
+    <EditText
+        android:id="@+id/cpassword"
+        android:background="#FFC107"
+        android:hint="Enter Comfrim Password"
+        android:layout_margin="10dp"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/number"
+        android:background="#FFC107"
+        android:hint="Enter Number"
+        android:layout_margin="10dp"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_margin="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Submit" />
+
+
+
+</LinearLayout>
